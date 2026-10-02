@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SquircleCardView">
+        <attr name="squircleTopLeftRadius" format="dimension" />
+        <attr name="squircleTopRightRadius" format="dimension" />
+        <attr name="squircleBottomRightRadius" format="dimension" />
+        <attr name="squircleBottomLeftRadius" format="dimension" />
+        <attr name="squircleControlFactor" format="float" />
+        <attr name="squircleBackgroundColor" format="color" />
+    </declare-styleable>
+</resources>

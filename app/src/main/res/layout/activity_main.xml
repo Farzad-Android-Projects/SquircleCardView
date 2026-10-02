@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <io.github.farzadski.squirclecardview.SquircleCardView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_margin="32dp"
+        app:squircleBackgroundColor="#6ED2FF"
+        app:squircleBottomLeftRadius="64dp"
+        app:squircleBottomRightRadius="64dp"
+        app:squircleControlFactor="0.90"
+        app:squircleTopLeftRadius="64dp"
+        app:squircleTopRightRadius="64dp" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

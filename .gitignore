@@ -1,0 +1,302 @@
+# ============================================================
+
+# Android / Gradle
+
+# ============================================================
+
+.gradle/
+**/build/
+build/
+out/
+
+# Gradle generated files
+
+gradle-app.setting
+gradle-local.properties
+
+# Gradle wrapper - keep these tracked
+
+# gradle/wrapper/gradle-wrapper.jar
+
+# gradle/wrapper/gradle-wrapper.properties
+
+# ============================================================
+
+# Android Studio / IntelliJ IDEA
+
+# ============================================================
+
+.idea/
+
+# Workspace-specific files
+
+*.iml
+*.iws
+*.ipr
+
+# Android Studio local configuration
+
+.idea/workspace.xml
+.idea/usage.statistics.xml
+.idea/dictionaries/
+.idea/shelf/
+
+# Android Studio caches
+
+.idea/caches/
+.idea/modules.xml
+.idea/compiler.xml
+.idea/jarRepositories.xml
+
+# ============================================================
+
+# Local configuration
+
+# ============================================================
+
+# Local SDK path
+
+local.properties
+
+# Environment / machine-specific configuration
+
+.env
+.env.*
+!.env.example
+
+# ============================================================
+
+# Android generated files
+
+# ============================================================
+
+*.apk
+*.ap_
+*.aab
+
+# Generated APK/AAB outputs
+
+**/outputs/
+**/generated/
+
+# Mapping files
+
+**/mapping/
+*.mapping
+
+# Native build outputs
+
+.externalNativeBuild/
+.cxx/
+
+# ============================================================
+
+# Kotlin
+
+# ============================================================
+
+*.kotlin_module
+
+# Kotlin compiler/cache
+
+.kotlin/
+
+# ============================================================
+
+# Java
+
+# ============================================================
+
+*.class
+
+# Java compiler output
+
+classes/
+
+# ============================================================
+
+# Signing / Keystores
+
+# ============================================================
+
+# NEVER commit private signing keys
+
+*.jks
+*.keystore
+*.keystores
+
+# Android signing configuration
+
+keystore.properties
+
+# ============================================================
+
+# Firebase / Google Services
+
+# ============================================================
+
+# Usually contains project-specific Firebase configuration.
+
+# Remove this rule if you intentionally want it versioned.
+
+google-services.json
+
+# ============================================================
+
+# Fastlane
+
+# ============================================================
+
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output/
+
+# ============================================================
+
+# OS files
+
+# ============================================================
+
+# macOS
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS Finder metadata
+
+._*
+
+# Windows
+
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+
+# Linux
+
+*~
+
+# ============================================================
+
+# Logs
+
+# ============================================================
+
+*.log
+logs/
+
+# ============================================================
+
+# Temporary files
+
+# ============================================================
+
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Vim
+
+*.swn
+
+# Backup files
+
+*.bak
+*.orig
+
+# ============================================================
+
+# IDE / Editor
+
+# ============================================================
+
+.vscode/
+
+# VS Code workspace settings
+
+*.code-workspace
+
+# Eclipse
+
+.classpath
+.project
+.settings/
+
+# ============================================================
+
+# Compose / Android generated artifacts
+
+# ============================================================
+
+# Generated Compose resources
+
+**/compose_generated/
+
+# ============================================================
+
+# Dependency / build caches
+
+# ============================================================
+
+node_modules/
+
+# Yarn
+
+.yarn/
+.pnp.*
+
+# npm
+
+.npm/
+
+# ============================================================
+
+# Coverage / Testing
+
+# ============================================================
+
+**/coverage/
+**/jacoco/
+*.exec
+
+# ============================================================
+
+# Profiling
+
+# ============================================================
+
+*.hprof
+
+# ============================================================
+
+# Temporary Android Studio files
+
+# ============================================================
+
+captures/
+
+# ============================================================
+
+# Secrets
+
+# ============================================================
+
+# Generic private keys
+
+*.pem
+*.p12
+*.pfx
+
+# Private credentials
+
+credentials.json
+secrets.json
+secret.properties
+
+# Keep examples
+
+!**/example.env
