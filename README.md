@@ -92,7 +92,7 @@ Then add SquircleCardView to your module:
 
 ```kotlin
 dependencies {
-    implementation("com.github.YOUR_USERNAME:SquircleCardView:1.0.0")
+    implementation 'com.github.Farzad-Android-Projects:SquircleCardView:1.0.0'
 }
 ```
 
@@ -834,50 +834,6 @@ SquircleCardView/
 ├── LICENSE
 └── README.md
 ```
-
----
-
-# GitHub Publishing
-
-The recommended release workflow is:
-
-```bash
-git init
-git add .
-git commit -m "Initial release"
-```
-
-Add your GitHub repository:
-
-```bash
-git remote add origin https://github.com/YOUR_USERNAME/SquircleCardView.git
-```
-
-Use `main` as the default branch:
-
-```bash
-git branch -M main
-```
-
-Push:
-
-```bash
-git push -u origin main
-```
-
-Create the first release tag:
-
-```bash
-git tag v1.0.0
-```
-
-Push the tag:
-
-```bash
-git push origin v1.0.0
-```
-
-JitPack can then build the tagged release.
 
 ---
 
